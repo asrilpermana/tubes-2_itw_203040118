@@ -2,11 +2,13 @@
 .navbar {
 	position: relative;
 	z-index: 1;
+	position: sticky;
+	background-color: white;
 }
 
 .navbar-brand {
-	font-family:  Viga;
 	font-size: 32px;
+	font-weight: 500;
 }
 
 
@@ -14,6 +16,10 @@
 .tombol {
 	text-transform: uppercase;
 	border-radius: 40px;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 /* Jumbotron */
@@ -158,11 +164,20 @@
 	border-radius: 12px;
 }
 
-.sent {
-	text-align: center;
-	margin: 200px;
+.thank {
 	text-transform: uppercase;
-	border-radius: 40px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	text-align: center;
+}
+
+.otw {
+	text-transform: uppercase;
+	position: absolute;
+	top: 80%;
+	left: 32%;
+	text-align: center;
 }
 
 .send {
@@ -239,7 +254,66 @@
 	bottom: -35px;
 }
 
+.social-menu ul {
+	position: absolute;
+	left: 50%;
+	padding: 0;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	display: flex;
+}
 
+.social-menu ul li {
+	list-style: none;
+	margin: 0 15px;
+}
+
+.social-menu ul li .fa {
+	font-size: 30px;
+	line-height: 60px;
+	transition: .6s;
+	color: #000;
+}
+
+.social-menu ul li .fa:hover {
+	color: #fff;
+}
+
+.social-menu ul li a {
+	position: relative;
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	background-color: #fff;
+	text-align: center;
+	transition: .6s;
+	box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover {
+	transform: translate(0, -10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+	background-color: #3b5999;
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+	background-color: #55acee;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+	background-color: #e4405f;
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+	background-color: #cd201f;
+}
+
+.footer {
+	padding-top: 90px;
+}
 
 
 
@@ -249,9 +323,21 @@
 		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 	}
 
+	.navbar {
+	position: relative;
+	z-index: 1;
+	position: sticky;
+	background-color: black;
+	}
+
+
 	.nav-link {
 	text-transform: uppercase;
 	margin-right: 30px;
+	}
+
+	.top-nav-collapse {
+		background-color: indigo;
 	}
 
 	.nav-link:hover {
@@ -281,5 +367,21 @@
 	.atas {
 		color: white !important;
 	}
+
+	.thank {
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	text-align: center;
+	}
+
+	.otw {
+	text-transform: uppercase;
+	position: absolute;
+	top: 80%;
+	left: 44%;
+	text-align: center;
+}
 
 }

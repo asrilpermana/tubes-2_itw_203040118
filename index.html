@@ -15,32 +15,35 @@
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <title>Asrillper Website</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar">
       <div class="container">
           <a class="navbar-brand atas" href="#">Asrillper Photography</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Sticky-nav">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse" id="Sticky-nav">
             <div class="navbar-nav ml-auto">
-              <a class="nav-item nav-link active atas" href="index.html">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link atas" href="project.html">Project</a>
-              <a class="nav-item nav-link atas" href="harga.html">Pricing</a>
-              <a class="nav-item nav-link atas" href="about.html">About</a>
-              <a class="nav-item btn btn-primary tombol" href="contact.html">Contact Us</a>
+              <a class="nav-item nav-link active atas" href="#home">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link atas" href="#about">About</a>
+              <a class="nav-item nav-link atas" href="#project">Project</a>
+              <a class="nav-item nav-link atas" href="#pricing">Pricing</a>
+              <a class="nav-item btn btn-primary tombol" href="#contact">Contact Us</a>
             </div>
           </div>
       </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div id="home" class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">Capture every your <span>best</span><br> <span>moment</span> with us</h1>
-        <a href="project.html" class="btn btn-primary tombol">Our Project</a>
+        <a href="#project" class="btn btn-primary tombol">Our Project</a>
       </div>
     </div>
 
@@ -72,6 +75,20 @@
     </div>
   </div>
 
+<br id="about"><br><br>
+
+ <section class="about">
+    <div class="container">
+      <h2>ABOUT US</h2><br>
+      <img src="assets/img/uhuy.jpg" width="40%" class="pict">
+      <h5>Asrillper Photography is photography service and products company founded on 2020. We built this business with lots of care and love. We focus on only one thing : service excellence for our customer. We spend our time learning and producing good products and services to bring out the most exquisite experience at our studio.
+      There’s a flash that capture your smile, your heartbeat and your feeling to find the best in you, to embrace your beauty into picture. We believe that every photo is precious, they all have a story that becomes a memory for life.</h5>
+    </div>
+  </section>
+
+ 
+
+
 <div class="row workingspace">
   <div class="col-lg-6">
     <img src="assets/img/final.jpg" class="img-fluid foto">
@@ -79,9 +96,121 @@
   <div class="col-lg-5">
     <h3>with our <span>best</span> <span>photographer</span></h3>
     <p>Kami selalu mengedepankan sebuah kualitas. Oleh karena itu kami bekerja sama dengan Photographer Professional terbaik untuk menghasilkan sebuah foto yang sangat sempurna.</p>
-    <a href="project.html" class="btn btn-primary tombol">Project</a>
+    <a href="#project" class="btn btn-primary tombol">Project</a>
   </div>
 </div>
+
+<br id="project"><br><br>
+
+<section id="portfolio" class="portfolio bg-light pb-4">
+      <div class="container">
+          <div class="row mb-4 pt-4">
+              <div class="col text-center">
+                  <h2>OUR PROJECT</h2><br>
+              </div>
+          </div>
+
+          <div class="row mb-4">
+              <div class="col-md">
+                <div class="card">
+                    <img src="assets/img/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Let's take a photoshoot with us for a better experience.</p>
+                    </div>
+                  </div>
+              </div>
+             <div class="col-md">
+                <div class="card">
+                    <img src="assets/img/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Take a photos of your company stuff with us to attract the buyers.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md">
+                <div class="card">
+                    <img src="assets/img/9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Capture your happiness moment with Asrillper Photograph.</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="row mb-4">
+              <div class="col-md">
+                <div class="card">
+                    <img src="assets/img/6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Let's take a photoshoot with us for a better experience.</p>
+                    </div>
+                  </div>
+              </div>
+             <div class="col-md">
+                <div class="card">
+                    <img src="assets/img/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Take a photos of your company stuff with us to attract the buyers.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md">
+                <div class="card">
+                    <img src="assets/img/7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Capture your happiness moment with Asrillper Photograph.</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+    </section>
+
+<br id="pricing"><br><br>
+
+  <section id="portfolio" class="portfolio bg-light pb-4">
+      <div class="container">
+          <div class="row mb-4 pt-4">
+              <div class="col text-center">
+                  <h2>OUR PRICELIST</h2>
+              </div>
+          </div>
+
+          <div class="row mb-4">
+              <div class="col-md">
+                <div class="card">
+                    <img src="assets/img/harga.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5>Group Photos</h5>
+                      <p class="card-text">Starting from Rp. 50.000,-</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md">
+                <div class="card">
+                    <img src="assets/img/harga2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5>Wedding Photos</h5>
+                      <p class="card-text">Starting from Rp. 700.000,-</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md">
+                <div class="card">
+                    <img src="assets/img/harga3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5>Advertising Photos</h5>
+                      <p class="card-text">Starting from Rp. 500.000,-</p>
+                    </div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+    </section>
+
+
 
 <div class="slider-area">
   <div class="container">
@@ -166,6 +295,73 @@
 </div>
 
 
+<br id="contact"><br><br>
+
+ <section id="contact" class="contact mb-5">
+        <div class="container">
+            <div class="row pt-4 mb-4">
+                <div class="col text-center">
+                    <h2>CONTACT US</h2><br>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="card text-white bg-primary mb-3 text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Contact Us</h5>
+                          <p class="card-text">For all inquiries, please email us using the form below.</p>
+                        </div>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><h1>Location</h1></li>
+                        <li class="list-group-item">Asrillper Photo Studio</li>
+                        <li class="list-group-item">Jl. Setiabudhi No. 193 Bandung</li>
+                        <li class="list-group-item">West Java, Indonesia</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6">
+                    <form>
+                        <div class="form-group">
+                          <label for="nama">Nama</label>
+                          <input type="text" class="form-control" id="nama">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telp">No Telp</label>
+                            <input type="text" class="form-control" id="telp">
+                        </div>
+                        <div class="form-group">
+                            <label for="pesan">Pesan</label>
+                            <textarea name="pesan" id="pesan" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <a href="index.html"><button type="button" class="btn btn-primary">Submit</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<br><br>
+
+
+<div class="social-menu">
+  <ul>
+    <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/asrillper"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+  </ul>
+</div>
+
+
 
 <div class="row footer">
   <div class="col text-center">
@@ -191,5 +387,10 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript">window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  </script>
+
   </body>
 </html>
